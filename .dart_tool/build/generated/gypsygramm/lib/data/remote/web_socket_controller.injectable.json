@@ -1,0 +1,1 @@
+[{"type":{"name":"WebSocketController","import":"package:gypsygramm/data/remote/web_socket_controller.dart"},"typeImpl":{"name":"WebSocketControllerImpl","import":"package:gypsygramm/data/remote/web_socket_controller.dart"},"isAsync":false,"preResolve":false,"injectableType":0,"dependsOn":[],"environments":[],"dependencies":[],"constructorName":"","isAbstract":false}]
