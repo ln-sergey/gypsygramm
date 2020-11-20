@@ -4,11 +4,11 @@ import 'dart:io';
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:injectable/injectable.dart';
-import '../../../domain/entities/settings/settings.dart';
 import 'package:meta/meta.dart';
 
 import '../../../data/errors/exceptions.dart';
 import '../../../data/remote/connectivity_listener.dart';
+import '../../../domain/entities/settings/settings.dart';
 import '../../../domain/repositories/authentification_repository.dart';
 
 part 'authentification_state.dart';

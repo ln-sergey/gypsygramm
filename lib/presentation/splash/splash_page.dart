@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:gypsygramm/config/device_config.dart';
-import 'package:gypsygramm/presentation/authentification/cubit/authentification_cubit.dart';
-import 'package:gypsygramm/styles.dart';
 
 import '../../assets.dart';
+import '../../config/device_config.dart';
+import '../../styles.dart';
+import '../authentification/cubit/authentification_cubit.dart';
 
 class SplashPage extends StatelessWidget {
   const SplashPage({Key key}) : super(key: key);
