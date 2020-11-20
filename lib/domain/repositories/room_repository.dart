@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'dart:convert';
+import 'dart:html';
 
 import 'package:hive/hive.dart';
 import 'package:injectable/injectable.dart';
@@ -109,7 +110,7 @@ class RoomRepositoryImpl implements RoomRepository {
   @override
   void sendMessage(String roomName, String text) {
     _webSocketController.sink
-        .add(json.encode({'room': roomName, 'text': text}));
+        .add(json.encode({'room': Uri.encodeFull(roomName), 'text': text}));
   }
 
   @override
