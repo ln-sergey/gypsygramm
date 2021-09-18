@@ -1,1 +1,0 @@
-[{"type":{"name":"LocalStorageController","import":"package:gypsygramm/data/local/local_storage_controller.dart"},"typeImpl":{"name":"LocalStorageControllerImpl","import":"package:gypsygramm/data/local/local_storage_controller.dart"},"isAsync":false,"preResolve":false,"injectableType":0,"dependsOn":[],"environments":[],"dependencies":[],"constructorName":"","isAbstract":false}]
